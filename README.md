@@ -43,3 +43,16 @@ pip install numpy
 pip install imutils
 ```
 
+## How to use
+
+To use the system to make a search, it's needed to open up the terminal inside the root folder where the code lives. After that, issue one of the following commands depending on the system you're using.
+For example, on a Linux machines, type:
+
+```
+python3 search.py --index index.csv --query queries/108100.png --result-path dataset
+```
+If you're using Windows or macOS, type:
+```
+python search.py --index index.csv --query queries/108100.png --result-path dataset
+```
+Where `index.csv` is the index that contains all the features of the images inside the dataset, `queries/108100.png` is the path of the query image and `dataset` is the path that contains the photos from the dataset.
